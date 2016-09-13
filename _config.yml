@@ -1,0 +1,47 @@
+markdown: kramdown
+exclude:
+  - LICENSE
+  - Makefile
+  - README
+markdown_ext: "md"
+
+ftp_host: 'webspace.uchicago.edu'
+ftp_dir: '/public_html/'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'yurovsky'     # default read from stdin
+ftp_secure: true              # default false
+
+
+layouts_dir: ./_noita
+baseurl: /courses/Autumn16/psych20100
+learn_obj: https://duke.coursera.org/duke-statistics-001/wiki
+openintro: https://www.openintro.org/os
+teams: 
+
+gems:
+  - jemoji
+
+noita:
+  name: PSYC 20100 - Psychological Statistics (Autumn 2016)
+  description: PSYC 20100 at U Chicago - taught by Daniel Yurovsky
+  author:
+    name: Dan Yurovsky
+    url: http://home.uchicago.edu/~yurovsky
+    absolute: true
+  lang: en
+  topbar:
+    toggle: Menu
+    right:
+      - name: Schedule
+        url: /
+      - name: Info
+        url: /info/
+      - name: Syllabus
+        url: /syllabus/
+      - name: Links
+        url: /links/
+      - name: FAQ
+        url: /faq/
