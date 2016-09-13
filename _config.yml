@@ -5,18 +5,8 @@ exclude:
   - README
 markdown_ext: "md"
 
-ftp_host: 'webspace.uchicago.edu'
-ftp_dir: '/public_html/'
-ftp_passive: false
-
-# optional
-ftp_port: 21                  # default 21
-ftp_username: 'yurovsky'     # default read from stdin
-ftp_secure: true              # default false
-
-
 layouts_dir: ./_noita
-baseurl: /courses/Autumn16/psych20100
+baseurl: /
 learn_obj: https://duke.coursera.org/duke-statistics-001/wiki
 openintro: https://www.openintro.org/os
 teams: 
