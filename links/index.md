@@ -50,6 +50,7 @@ You might find the following resources useful as you navigate through this cours
 
 ### Supplementary R resources:
 
+* [DataCamp](https://www.datacamp.com/): A few good videos to help you get started
 * [CodeSchool](https://www.codeschool.com/courses/try-r "Link: https://www.codeschool.com/courses/try-r")[R Tutorial](https://www.codeschool.com/courses/try-r "Link: https://www.codeschool.com/courses/try-r"): Another brief R tutorial, in case you would like to have another avenue by which to get introduced to R. 
 * [twotorials](http://www.twotorials.com/): how to do stuff in r. two minutes or less.
 
