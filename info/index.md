@@ -7,8 +7,8 @@ title: Course Information
 
 |--------------+-------------------------------------------------------+-------------------------------------------------------+-----------|
 |:-------------|:------------------------------------------------------|:------------------------------------------------------|:----------|
-|**Professor** | [Daniel Yurovsky](http://home.uchicago.edu/~yurovsky) | [yurovsky@uchicago.edu](mailto:yurovsky@uchicago.edu) | Green 201 | 
-|**TAs**       | Heather Hardan                                        | [hhardan@uchicago.edu](mailto:hhardan@uchicago.edu)   | Room      | 
+|**Professor** | [Daniel Yurovsky](http://psychology.uchicago.edu/directory/daniel-yurovsky) | [yurovsky@uchicago.edu](mailto:yurovsky@uchicago.edu) | Green 201 | 
+|**TAs**       | Heather Mangelsdorf                                   | [hhardan@uchicago.edu](mailto:hhardan@uchicago.edu)   | Room      | 
 |              | Omid Kardan                                           | [okardan@uchicago.edu](mailto:okardan@uchicago.edu)   |           | 
 
 
@@ -17,8 +17,8 @@ title: Course Information
 ### Class meetings:
 * Lectures: Mondays and Wednesdays, 1:30pm - 2:20pm, Harper Memorial Library 130
 * Labs: Friday
-    * 1:30pm - 2:20pm - Walker Museum 303 - TA: 
-    * 2:30pm - 3:20pm - Biological Sciences Learning Center 018 - TA: 
+    * 1:30pm - 2:20pm - Walker Museum 303 - TA: Heather Mangelsdorf 
+    * 2:30pm - 3:20pm - Biological Sciences Learning Center 018 - TA: Omid Kardan
 
 * * *
 
@@ -27,9 +27,9 @@ title: Course Information
 |---------------------+----------------------------------+---------------|
 | Instructor          | Day / time                       | Location      |
 |:--------------------|:---------------------------------|:--------------|
-|Professor Yurovsky   | Mon 4:00pm - 5:30pm              | Green 201     |
-|Heather Hardan       | Mon 9:30am - 11:30am             | ROOM          |
-|Omid Kardan          | Mon 4:30pm - 5:30pm + 7pm - 8pm  | ROOM          |
+|Heather Mangelsdorf  | Mon 3:30pm - 5:30pm              | ROOM TBA      |
+|Omid Kardan          | Tue 4:00pm - 6:00pm              | ROOM TBA      |
+|Professor Yurovsky   | Wed 3:30pm - 5:30pm              | Green 201     |
 
 * * *
 

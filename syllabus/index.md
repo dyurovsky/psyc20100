@@ -5,26 +5,25 @@ title: Syllabus
 
 ### Course goals & objectives:
 
-This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the semester, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena.
+Statistics, at its core, is a set of mathematical tools for reasoning about uncertainty. These tools are invaluable for making sense of data and making predictions about the future. The language of statistics allows us to connect our scientific theories to the phenomena we observe in the world.
 
-The course goals are as follows:
+This course is designed to introduce you to some of the key ideas in the discipline of statistics, and to make you comfortable with tools for applying them to data that you will encounter in your future courses and outside of class in the future. 
 
-1. Recognize the importance of data collection, identify limitations in data collection methods, and determine how they affect the scope of inference.
-2. Use statistical software to summarize data numerically and visually, and to perform data analysis.
-3. Have a conceptual understanding of the unified nature of statistical inference.
-4. Apply estimation and testing methods to analyze single variables or the relationship between two variables in order to understand natural phenomena and make data-based decisions.
-5. Model numerical response variables using a single or multiple explanatory variables.
-6. Interpret results correctly, effectively, and in context without relying on statistical jargon.
-7. Critique data-based claims and evaluate data-based decisions.
-8. Complete a research project demonstrating mastery of statistical data analysis from exploratory analysis to inference to modeling.
+By the end of the semester, you should be able to:
 
+1. Understand how the way that data is collected affects what you can learn from it.
+2. Use statistical software to summarize this data numerically and visually.
+3. Build statistical models of the data and understand which models are better and why.
+4. Make predictions about what kind of data you would expect to see in the future.
+5. Ask questions about the data, and make statistical inferences to answer them.
+6. Present these results in a transparent way to others.
+7. Understand the claims that others make from data and be able to critique them.
 
 * * *
 
 ### Course structure:
 
-The course is divided into five learning units. For each unit a set of learning objectives and required and suggested readings, videos, etc. will be posted on the course website. You are expected to complete the readings and/or watch the videos familiarize yourselves with the learning objectives. 
-
+The course is divided into four learning units. For each unit a set of learning objectives and required and suggested readings, videos, etc. which will be posted on the course website. You are expected to complete the readings and/or watch the videos familiarize yourselves with the learning objectives. 
 
 
 Lectures will cover the bulk of the theoretical ideas, and lab
@@ -33,7 +32,7 @@ problem sets and in-class quizzes are designed to give you rapid feedback on you
 
 Weekly problem sets and short in-class quizzes are designed to give you rapid feedback on your learning, but the primary focus will be on the weekly labs that 
 
-The primary goal of this class is to teach you how to apply the ideas and tools of statistics to real-world data. For that that reason, the capstone assessment of the class is a *Project* in which you will apply these skills to a question that you find interesting. There will be *No Graded Exams*. 
+The primary goal of this class is to teach you how to apply the ideas and tools of statistics to real-world data. For that that reason, the capstone assessment of the class is a *Project* in which you will apply these skills to an interesting real-world dataset. There will be *No Graded Exams*. 
 
 You will however be asked to complete the [Comprehensive Assessment of Outcomes in a first Statistics class (CAOS)](https://apps3.cehd.umn.edu/artist/caos.html) twice: At the start of the course and again at the end. Your responses at the beginning of the class will help us to know what to focus on, and your answers at the end of the quarter will help us to revise the class for the next cohort of students. These assessments will be graded for *completion* and not for *correctness*; you will receive full credit independent of your score.
 
@@ -56,19 +55,17 @@ You will however be asked to complete the [Comprehensive Assessment of Outcomes 
 
 ### Attendance and participation
 
-You are expected to be present at class meeting and actively participate in the discussion. Your attendance and participation during class, as well as your activity on the discussion forum on Sakai will make up a non-insignificant portion of your grade in this class. While I might sometimes call on you during the class discussion, it is your responsibility to be an active participant without being called on. 
-
-Throughout the semester you will also be asked to complete a few peer evaluations. These will be used to ensure that all team members contribute to the success of the group and to address any potential issues early on. If you feel that there are issues within your team, you are encouraged to discuss it with your team members and to bring it to my or your TA's attention. 
+Lecture and lab attendance is mandatory. Lecture slides will be posted after class each day, but reading these slides is only a partial substitute for attendance – they will often be terse and difficult to interpret without having heard the actual lecture. Similarly, lab assignments will be posted at the start of lab, but your TAs will present additional useful information for successfully completing the assignments.
 
 * * *
 
 ### Problem sets:
 
-These will be assigned (approximately) weekly on the course website and will be comprised of problems from the textbook. Each assignment will list roughly five to seven problems from the book to be turned in for grading, and roughly 10 practice problems. You do not need to turn in the practice problems, and the solutions can be found in the back of the book.
+These will be assigned at the start of each unit, and will be comprised of problems from the textbook. Each assignment will list a set of problems from the book to be turned in for grading, and roughly 10 practice problems. You do not need to turn in the practice problems, and the solutions can be found in the back of the book.
 
 You are welcomed, and encouraged, to work with each other on the problems. But, *you must turn in your own work*.
 
-**Submission instructions:** You will turn in your problem sets by emailing them to your Lab Section Instructor. We strongly recommend working in a word processor of your choice (Word, Google Docs, etc.), saving your work as PDF, and submitting the PDF. This will ensure that what we read is exactly what you intended to submit. You are also welcomed to submit your document as a Word file as well, however if we cannot open your file you will receive a 0 on the problem set (so it is worth taking that risk!). Alternatively, you can type your answers in the text box in Sakai however if you lose internet connection and you haven’t saved, you might lose your work (so if you’ll use this approach make sure to save often!).
+**Submission instructions:** You will turn in your problem sets by submitted them through Google Classroom. We strongly recommend working in a word processor of your choice (Word, Google Docs, etc.), saving your work as PDF, and submitting the PDF. This will ensure that what we read is exactly what you intended to submit. You are also welcomed to submit your document as a Word file as well, however if we cannot open your file you will receive a 0 on the problem set 
 
 All assignments will be time stamped and late work will be penalized based on this time stamp (see late work policy below).
 
@@ -76,22 +73,17 @@ All assignments will be time stamped and late work will be penalized based on th
 
 ### Labs:
 
-The objective of the labs is to give you hands on experience with data analysis using modern statistical software. The labs will also provide you with tools that you will need to complete the project successfully. We will use a statistical analysis package called RStudio, which is a front end for the R statistical language.
+The objective of the labs is to give you hands on experience with data analysis using modern statistical software. The labs will also provide you with tools that you will need to complete the project successfully. We will use a statistical analysis program called [RStudio](https://www.rstudio.com/), which is a front end for the [R](https://www.r-project.org/) statistical language.
 
 In class your TAs will give a brief overview of the lab and learning goals, and guide you through some of the exercises. You will start working on the lab during the class session, but note that the labs are designed to take more than just the class time, so you will probably need to continue working on them in order to submit labs before the due date (which will be the following lab session). 
 
-**Submission instructions:** Always submit the .Rmd and .HTML files for your lab by emailing them to your Lab Section Instructor. 
+**Submission instructions:** Always submit the .Rmd and .HTML files via Google Classroom.
 
 * * *
 
+### Quizzes:
 
-* * *
-
-### Quizzes"
-
-Performance assessments will be given at the end of a unit. These are very similar to the readiness assessments in format, however you will be taking them outside of class on Sakai. Outstanding performance will require mastery of all topics in the unit. 
-
-*Lowest score will be dropped.*
+Each week on Monday we will have a short (~15 min) quiz at the beginning of lecture. You will do these in-class on paper and hand them in. Quizzes are designed to give both you and your instructors rapid feedback about your understanding of the theoretical ideas covered the previous week. We understand that sometimes things come up and you will be late or absent. For this reason, *your lowest score will be dropped.*
 
 * * *
 
@@ -101,16 +93,13 @@ The objective of the project is to give you independent applied research experie
 
 * * *
 
-
-* * *
-
 ### Email & Forum (Google Classroom):
 
-I will regularly send announcements by email, please make sure to check your email  daily.
+I will regularly send announcements by email, please make sure to check your email daily.
 
-Any non-personal questions related to the material covered in class, problem sets, labs, project, etc. should be posted on Piazza. Before posting a new question please make sure to check if your question has already been answered. The TAs and myself will be answering questions on the forum daily and all students are expected to answer questions as well. Please use informative titles for your posts.
+Any non-personal questions related to the material covered in class, problem sets, labs, project, etc. should be posted to our Google Classroom. Before posting a new question please make sure to check if your question has already been answered. The TAs and I will be answering questions in the Classroom daily and all students are expected to answer questions as well. Please use informative titles for your posts.
 
-Note that it is more efficient to answer most statistical questions ``in person" so make use of [Office Hours]({{site:baseurl}}/info/#oh).
+Note that it is more efficient to answer most statistical questions ``in person" so make use of [Office Hours]({{site.baseurl}}/info/#oh).
 
 * * *
 
@@ -120,19 +109,15 @@ Students with disabilities who believe they may need accommodations in this clas
 
 * * *
 
-### Excused Absences:
+### Academic integrity:
 
-Students who miss graded work due to a scheduled varsity trip, religious holiday or short-term illness should fill out an online [NOVAP](https://trinity.duke.edu/undergraduate/academic-policies/athletic-varsity-participation), [religious observance notification](https://trinity.duke.edu/undergraduate/academic-policies/religious-holidays), or [short-term illness notification](http://trinity.duke.edu/academic-requirements?p=policy-short-term-illness-notification) form respectively. 
-
-If you cannot complete an assignment on the due date due to a short-term illness, you have **until noon the following day** to complete it at no penalty. Then the regular late work policy will kick in.
-
-If you are faced with a personal or family emergency or a long-range or chronic health condition that interferes with your ability to attend or complete classes, you should contact your academic dean's office. See more information on policies surrounding these conditions [here](https://trinity.duke.edu/undergraduate/academic-policies/personal-emergencies). Your academic dean can also provide more information.
+The University of Chicago is a community dedicated to honest intellectual inquiry. Cheating on quizzes, plagiarism on homework assignments and projects, lying about an illness or absence and other forms of academic dishonesty are a breach of trust with classmates and faculty, and will not be tolerated. Such incidences will result in a 0 grade for all parties involved as well as being reported to the College Dean of Students. Additionally, there may be penalties to your final class grade. Please review the [University of Chicago Student Manual](https://studentmanual.uchicago.edu/Policies).
 
 * * *
 
 ### Policies:
 
-* Late work policy for the problem sets and labs reports:
+* Late work policy for the problem sets and lab reports:
     * next day: lose 30% of total possible points
     * later than next day: lose all points
 
