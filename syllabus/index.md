@@ -25,12 +25,9 @@ By the end of the semester, you should be able to:
 
 The course is divided into four learning units. For each unit a set of learning objectives and required and suggested readings, videos, etc. which will be posted on the course website. You are expected to complete the readings and/or watch the videos familiarize yourselves with the learning objectives. 
 
+Lectures and the textbook will cover the bulk of the theoretical ideas, and lab sessions will give you practice applying these ideas to real data. These are deeply intertwined, and it's important to make sure you understand both the theoretical and practical parts of doing statistics. 
 
-Lectures will cover the bulk of the theoretical ideas, and lab
-
-problem sets and in-class quizzes are designed to give you rapid feedback on your progress. 
-
-Weekly problem sets and short in-class quizzes are designed to give you rapid feedback on your learning, but the primary focus will be on the weekly labs that 
+Your understanding of the theoretical ideas will be assessed with short weekly quizzes, as well as problem sets that will be due at the end of each unit. Your understanding of the practice of statistics will be assessed by your work on the lab assignments. 
 
 The primary goal of this class is to teach you how to apply the ideas and tools of statistics to real-world data. For that that reason, the capstone assessment of the class is a *Project* in which you will apply these skills to an interesting real-world dataset. There will be *No Graded Exams*. 
 
