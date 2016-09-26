@@ -27,8 +27,8 @@ title: Course Information
 |---------------------+----------------------------------+---------------|
 | Instructor          | Day / time                       | Location      |
 |:--------------------|:---------------------------------|:--------------|
-|Heather Mangelsdorf  | Mon 3:30pm - 5:30pm              | Green 415     |
-|Omid Kardan          | Tue 4:00pm - 6:00pm              | Beecher 410   |
+|Heather Mangelsdorf  | Mon 3:30pm - 5:30pm              | Beecher 410   |
+|Omid Kardan          | Tue 4:00pm - 6:00pm              | Green 415     |
 |Professor Yurovsky   | Wed 3:30pm - 5:30pm              | Green 201     |
 
 * * *
