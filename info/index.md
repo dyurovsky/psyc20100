@@ -17,7 +17,7 @@ title: Course Information
 ### Class meetings:
 * Lectures: Mondays and Wednesdays, 1:30pm - 2:20pm, Harper Memorial Library 130
 * Labs: Friday
-    * 21:30pm - :20pm - Walker Museum 303 - TA: Heather Mangelsdorf 
+    * 12:30pm - 1:20pm - Walker Museum 303 - TA: Heather Mangelsdorf 
     * 1:30pm - 2:20pm - Biological Sciences Learning Center 018 - TA: Omid Kardan
 
 * * *
