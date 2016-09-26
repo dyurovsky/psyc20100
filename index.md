@@ -15,7 +15,7 @@ title: Schedule
 
 ##### Class / lab
 
-| Sep 26, Mon  | [Introduction to PSYC 20100](post/slides/deck0.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/deck0H.pdf)   |
+| Sep 26, Mon  | [Introduction to PSYC 20100](post/slides/intro.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/introH.pdf)   |
 | Sep 28, Wed  | Lesson 1.1: Data Collection, observational studies & experiments|
 | Sep 30, Fri  | Lab 1: Intro to R and RStudio |
 | Oct 3, Mon   |  **Quiz 1** in class |

@@ -41,8 +41,8 @@ You will however be asked to complete the [Comprehensive Assessment of Outcomes 
 <table style="width:400px;">
 <tr> <td> CAOS Pre and Post tests   </td> <td> 5% </td></tr>
 <tr> <td> Quizzes                   </td> <td> 10% </td></tr> 
-<tr> <td> Problem sets              </td> <td> 20% </td></tr>
-<tr> <td> Labs                      </td> <td> 20% </td></tr>
+<tr> <td> Problem sets              </td> <td> 30% </td></tr>
+<tr> <td> Labs                      </td> <td> 30% </td></tr>
 <tr> <td> Project                   </td> <td> 25% </td></tr>
 </table>
 </div>
