@@ -16,7 +16,7 @@ title: Schedule
 ##### Class / lab
 
 | Sep 26, Mon  | [Introduction to PSYC 20100](post/slides/intro.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/introH.pdf)   |
-| Sep 28, Wed  | Lesson 1.1: Data Collection, observational studies & experiments|
+| Sep 28, Wed  | [Lesson 1.1: Data--where it comes from and why it matters](post/slides/data.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/dataH.pdf)|
 | Sep 30, Fri  | Lab 1: Intro to R and RStudio |
 | Oct 3, Mon   |  **Quiz 1** in class |
 |              |Lesson 1.2: Exploratory data analysis |
