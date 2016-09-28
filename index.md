@@ -49,7 +49,7 @@ title: Schedule
 
 | Oct 10, Mon  |  **Quiz 2** in class |
 |              | Lesson 2.1: Randomization and Sampling |
-| Oct 12, Wed  | Lesson 2.2: Hypothesis Testing ]
+| Oct 12, Wed  | Lesson 2.2: Hypothesis Testing 1 |
 | Oct 14, Fri  | Lab 3: Testing Hypotheses |
 | Oct 17, Mon  | **Quiz 3** in class |
 |              | Lesson 2.3: Hypothesis Testing 2|
