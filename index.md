@@ -11,7 +11,7 @@ title: Schedule
 
 ##### Resources
 
-| Learning objectives: [L0 1]({{site.baseurl}}/los/#unit1)| Textbook: [Chp 1]({{ site.openintro}}) |
+| Learning objectives: [L0 1]({{site.baseurl}}/los/#unit1)| Textbook: [Chp 1]({{ site.openintro}}) | Videos: [Videos 1](https://www.youtube.com/watch?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8&v=nEHFF1ADpWE)
 
 ##### Class / lab
 
