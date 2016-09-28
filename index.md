@@ -11,7 +11,7 @@ title: Schedule
 
 ##### Resources
 
-| Learning objectives: L0 1| Textbook: [Chp 1]({{ site.openintro}}) |
+| Learning objectives: [L0 1]({{site.baseurl}}/los/#unit1)| Textbook: [Chp 1]({{ site.openintro}}) |
 
 ##### Class / lab
 
