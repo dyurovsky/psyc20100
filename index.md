@@ -3,7 +3,7 @@ layout: page
 title: Schedule
 ---
 
-| Jump to: | &nbsp;&nbsp;&nbsp; [Unit 1]({{ site.baseurl }}/#unit1) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; [Unit 2]({{ site.baseurl }}/#unit2) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; [Unit 3]({{ site.baseurl }}/#unit3) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; [Unit 4]({{ site.baseurl }}/#unit4) &nbsp;&nbsp;&nbsp; |
+| Jump to: | &nbsp;&nbsp;&nbsp; [Unit 1]({{site.baseurl}}/info//#unit1) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; [Unit 2]({{ site.baseurl }}/#unit2) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; [Unit 3]({{ site.baseurl }}/#unit3) &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; [Unit 4]({{ site.baseurl }}/#unit4) &nbsp;&nbsp;&nbsp; |
 
 * * *
 
@@ -29,7 +29,14 @@ title: Schedule
 * Lab 1: Oct 7, Start of Lab Section 
 * Lab 2: Oct 14, Start of Lab Section 
 * Problem Set 1: Oct 10, Mon, at 12:30pm
-
+  * End of chapter exercises from **Chp 1**. Only turn in answers to graded questions,
+  use the back of the book to check your work on the practice questions. Must show 
+  **all** work to get credit. Submit homework through Google Classroom.
+  * **Graded questions:** 1.2, 1.6, 1.12, 1.20, 1.26, 1.28, 1.30, 1.34, 1.40, 1.42, 1.48
+  * Practice questions: 
+      + Part 1 – Designing studies: 1.1, 1.3, 1.9, 1.11, 1.13, 1.19
+      + Part 2 – Examining Data: 1.25, 1.27, 1.29, 1.37, 1.39, 1.41, 1.47
+      
 * * *
 
 ### <a name="unit2"></a> Unit 2 - Foundations for Inference

@@ -31,5 +31,7 @@ noita:
         url: /info/
       - name: Syllabus
         url: /syllabus/
+      - name: Learning Objectives
+        url: /los/
       - name: FAQ
         url: /faq/
