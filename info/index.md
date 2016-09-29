@@ -8,8 +8,8 @@ title: Course Information
 |--------------+-------------------------------------------------------+-------------------------------------------------------+-----------|
 |:-------------|:------------------------------------------------------|:------------------------------------------------------|:----------|
 |**Professor** | [Daniel Yurovsky](http://psychology.uchicago.edu/directory/daniel-yurovsky) | [yurovsky@uchicago.edu](mailto:yurovsky@uchicago.edu) | Green 201 | 
-|**TAs**       | Heather Mangelsdorf                                   | [hharden@uchicago.edu](mailto:hhardan@uchicago.edu)   | Room      | 
-|              | Omid Kardan                                           | [okardan@uchicago.edu](mailto:okardan@uchicago.edu)   |           | 
+|**TAs**       | Heather Mangelsdorf                                   | [hharden@uchicago.edu](mailto:hhardan@uchicago.edu)   | Beecher 410 | 
+|              | Omid Kardan                                           | [okardan@uchicago.edu](mailto:okardan@uchicago.edu)   | Green 415 | 
 
 
 * * *
