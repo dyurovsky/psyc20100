@@ -1,3 +1,4 @@
+
 ---
 title: "Lab 1 - Intro to R and RStudio"
 author: "Your name"
