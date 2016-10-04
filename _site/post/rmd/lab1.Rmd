@@ -1,3 +1,14 @@
+
+---
+title: "Lab 1 - Intro to R and RStudio"
+author: "Your name"
+date: "Date of lab session"
+output: 
+  html_document: 
+    highlight: tango
+    theme: spacelab
+---
+
 ```{r setup, include=FALSE}
 # DO NOT ALTER CODE IN THIS CHUNK
 knitr::opts_chunk$set(echo = TRUE)
@@ -61,19 +72,3 @@ present <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab1/present.csv
 
 
 * * *
-
-## Teamwork report
-
-<!--
-For each team member, write their name, whether they attended the lab session, 
-whether they were the author for this week, and their contribution to the lab 
-report (as a percentage). The percentages should add up to 100.
--->
-
-| Team member             | Attendance | Author   | Contribution % |
-|:------------------------|:----------:|:--------:|---------------:|
-| Name of member 1        | Yes / No   | Yes / No | 25%            |
-| Name of member 2        | Yes / No   | Yes / No | 25%            |
-| Name of member 3        | Yes / No   | Yes / No | 25%            |
-| Name of member 4        | Yes / No   | Yes / No | 25%            |
-| Total                   |            |          | 100%           |

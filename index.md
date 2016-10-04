@@ -19,7 +19,7 @@ title: Schedule
 | Sep 28, Wed  | [Lesson 1.1: Data--where it comes from and why it matters](post/slides/data.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/dataH.pdf)|
 | Sep 30, Fri  | [Lab 1: Intro to R and RStudio](post/labs/intro_to_r.html) |
 | Oct 3, Mon   |  **Quiz 1** in class |
-|              |Lesson 1.2: Exploratory data analysis |
+|              | [Lesson 1.2: Exploratory Data Analysis](post/slides/eda.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/edaH.pdf)|
 | Oct 5, Wed   |Lesson 1.3: More exploratory data analysis |
 | Oct 7, Fri   |Lab 2: Exploring some data |
 
