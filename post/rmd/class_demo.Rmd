@@ -1,0 +1,82 @@
+
+---
+title: "Class demo of histograms and barplots"
+author: "Dan Yurovsky"
+date: "10/5/2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load data managemenet and plotting libraries. And suppress package loading messages to have a cleaner doc.
+```{r load_libraries, message = FALSE}
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+```
+
+First, let's load in the data from our in-class survey
+```{r load_data}
+#read the data from the course website
+class_data <- read.csv("https://dyurovsky.github.io/psyc20100/data/demos/class_demo.csv") 
+
+head(class_data) #show the first few rows so we can see how the data are sturctured
+```
+
+Use `qplot` to make a separate histogram for each of the three things we measured. It will cleverly firgure out that I want a histogram without me even telling it!. I also specify how large I want the figures to be (`fig.width` and `fig.height`).
+
+```{r make_histograms, fig.width = 3, fig.height = 3}
+qplot(class_data$height)
+qplot(class_data$siblings)
+qplot(class_data$birth)
+```
+
+The current `class_data` data frame is in what's called *wide format* -- each row has multiple observations for a single person. To analyze it, I want it in *long format*, where each row has only a single data point.
+
+Munge the data (process it to get it into a tidy format). I'm going to use the `gather` function from the `tidyr` package. Right now, a single row has a value for `siblings`, `height`, and `birth`. I want it to only have a single `value` column and another column `measurement` that indicates which of three variables the value corresponds to. 
+
+So what I do is I make a new column called `person` which just gives a unique number to each row of the dataset (from 1 to the number of rows in the dataframe). Then I `gather` together all of the other measures.
+```{r munge_data}
+class_data_long <- class_data %>%
+  mutate(person = 1:nrow(class_data)) %>% #make a unique identifier for each row
+  gather(measure, value, -person) #gather all of the columns except for person
+  
+# now it's in long form!
+head(class_data_long)
+```
+
+Now I want to compute some descriptive statistics--the mean and median. I'll use the `group_by` function from the `dplyr` package to let `R` know that I want to call these functions separately for each `measure` in my dataset. Then I'll use `summarize`, which takes in all of the data for each group, and reduces it down to a single number using the functions I ask for. Here, `mean` and `median`.
+```{r compute_descriptives}
+descriptives <- class_data_long %>%
+  group_by(measure) %>%
+  summarize(mean = mean(value),
+            median = median(value))
+
+#let's print out these descriptives
+descriptives
+```
+
+
+Ok, let's plot all of the histograms together! And let's also put a line on each indicating the position of the mean (in red), and the median (in blue). That way, we can see how skew in our distributions changes the relationship between them.
+
+Also, I'm going to use `theme_bw` to change how the plots look--e.g., removing that horrible gray background that makes them hard to read.
+
+I'm going to the `ggplot` function, which is like `qplot` without all of the smart default assumptions. I want to have more control over my plot, adding things like multiple `facets` and two different geoms: a *histogram* and a *vertical line*
+```{r facet_plot, fig.width = 8, fig.height = 4}
+ggplot(class_data_long, aes(x = value)) +
+  facet_wrap(~ measure, scales = "free_x") +
+  geom_histogram(fill = 'white', color = 'black') + 
+  geom_vline(aes(xintercept = mean), data = descriptives, color = "red") + 
+  geom_vline(aes(xintercept = median), data = descriptives, color = "blue") + 
+  theme_bw()
+```
+
+Now lets make boxplots so we can see how they compare to the histograms. They still show a lot of the same information--skew, variability, center--but they also compress a lot of data about exactly how many people had exactly what height.
+
+```{r boxplot, fig.width = 6, fig.height = 4}
+ggplot(class_data_long, aes(x = measure, y = value)) +
+  geom_boxplot() + 
+  theme_bw()
+```
