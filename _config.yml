@@ -8,7 +8,7 @@ markdown_ext: "md"
 layouts_dir: ./_noita
 baseurl: /psyc20100
 learn_obj: https://duke.coursera.org/duke-statistics-001/wiki
-openintro: https://www.openintro.org/os
+openintro: https://www.openintro.org/stat/textbook.php?stat_book=isrs
 teams: 
 
 gems:

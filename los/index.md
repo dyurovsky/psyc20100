@@ -11,10 +11,10 @@ title: Learning Objectives
 
 Suggested reading: OpenIntro Statistics with Randomization and Simulation, Chapter 1  
 
-Suggested exercises: (End of chapter exercises from OpenIntro Statistics) 
-Part 1 – Designing studies: 1.1, 1.3, 1.5, 1.11, 1.13, 1.17, 1.19, 1.25, 1.27, 1.31
-Part 2 – Exploratory data analysis: 1.47, 1.43, 1.51, 1.55, 1.59, 1.63, 1.65, 1.67
-Part 3 – Introduction to inference via simulation: 1.69  
+Suggested exercises: (End of chapter exercises from OpenIntro Statistics with Randomization) 
+
+* Part 1 – Designing studies: 1.1, 1.3, 1.9, 1.11, 1.13, 1.19
+* Part 2 – Examining Data: 1.25, 1.27, 1.29, 1.37, 1.39, 1.41, 1.47
 
 Suggested reading: Section 1.1 and 1.2 of OpenIntro Statistics with Randomization and Simulation  
 
@@ -27,7 +27,7 @@ If the variable is categorical, determine if it is ordinal based on whether or n
 * **LO 3**. Define variables that are not associated as independent.  
 Test yourself: Give one example of each type of variable you have learned.  
 
-Suggested reading: Sections 1.3 and 1.5 of OpenIntro Statistics 
+Suggested reading: Sections 1.3 and 1.5 of OpenIntro Statistics with Randomization and Simulation  
 
 * **LO 4**. Identify the explanatory variable in a pair of variables as the variable suspected of affecting the other. However, note that labeling variables as explanatory and response does not guarantee that the relationship between the two is actually causal, even if there is an association identified between the two variables.  
 
@@ -41,7 +41,7 @@ Describe when a study’s results can be generalized to the population at large 
 Explain why random sampling allows for generalizability of results.
 Explain why random assignment allows for making causal conclusions.
 
-Suggested reading: Section 1.6 of OpenIntro Statistics 
+Suggested reading: Section 1.6 of OpenIntro Statistics with Randomization and Simulation  
 
 * **LO 7**. Use scatterplots for describing the relationship between two numerical variables, making sure to note the direction (positive or negative), form (linear or non-linear), and the strength of the relationship as well as any unusual observations that stand out.  
 
@@ -57,14 +57,11 @@ spread: standard deviation (variability around the mean), range (max-min), inter
 
 * **LO 12**. Define a robust statistic (e.g. median, IQR) as a statistic that is not heavily affected by skewness and extreme outliers, and determine when such statistics are more appropriate measures of center and spread compared to other similar statistics.  
 
-Suggested reading: Section 1.7 of OpenIntro Statistics 
+Suggested reading: Section 1.7 of OpenIntro Statistics with Randomization and Simulation  
 
 * **LO 13**. Use frequency tables and bar plots to describe the distribution of one categorical variable. 
 
 * **LO 14**. Use side-by-side box plots for assessing the relationship between a numerical and a categorical variable. 
-Test yourself:
-Interpret the plot in Figure 1.40 of OpenIntro Statistics (page 39).
-Consider a hypothetical situation where you collect data on 100 classmates, 70 females and 30 males. You discover that 10% of the class are smokers, and smoking is independent of gender. Calculate how many males and females would be expected to be smokers. Sketch a mosaic plot of this scenario. 
 
 This page will be updated as the class progresses with common questions I receive from students. I recommend that you check this page when you have a question to see if it has already been answered. If not, send me an email, and if the answer to your question might benefit the whole class I'll post it here as well. 
 
