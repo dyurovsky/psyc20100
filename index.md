@@ -20,7 +20,7 @@ title: Schedule
 | Sep 30, Fri  | [Lab 1: Intro to R and RStudio](post/labs/intro_to_r.html) |
 | Oct 3, Mon   |  **Quiz 1** in class |
 |              | [Lesson 1.2: Exploratory Data Analysis](post/slides/eda.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/edaH.pdf)|
-| Oct 5, Wed   |[Lesson 1.3: More Exploratory Data Analysis](post/slides/more_eda.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/more_edaH.pdf)|
+| Oct 5, Wed   |[Lesson 1.3: More Exploratory Data Analysis](post/slides/more_eda.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/more_edaH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/class_demo.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/class_demo.pdf])|
 | Oct 7, Fri   |Lab 2: Exploring some data |
 
 ##### Due dates
