@@ -153,7 +153,7 @@ $(document).ready(function () {
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">download.file</span>(<span class="st">&quot;https://dyurovsky.github.io/psyc20100/post/rmd/lab2.Rmd&quot;</span>, 
               <span class="dt">destfile =</span> <span class="st">&quot;lab2.Rmd&quot;</span>)</code></pre></div>
 </div>
-<p>You can think of statistics as a field that focuses on turning data into information. The first step in that process is to summarize and describe the raw the data. In this lab we explore flights, specifically a random sample of 32735 domestic flights that departed from the three major New York City airport in 2013. We will generate simple graphical and numerical summaries of data on these flights and explore delay times. As this is a large data set, along the way you’ll also learn some skills for data processing and subsetting that you’ll need over the course of the uarter.</p>
+<p>You can think of statistics as a field that focuses on turning data into information. The first step in that process is to summarize and describe the raw data. In this lab we explore flights, specifically a random sample of 32735 domestic flights that departed from the three major New York City airports in 2013. We will generate simple graphical and numerical summaries of data on these flights and explore delay times. As this is a large data set, along the way you’ll also learn some skills for data processing and subsetting that you’ll need over the course of the quarter.</p>
 <div id="boxedtext">
 <p><strong>A note on expectations: </strong> For each exercise and on your own question you answer include any relevant output (tables, summary statistics, plots) in your answer. Doing this is easy! Just place any relevant R code in a code chunk, hit <em>Knit Word</em> in the menu.</p>
 </div>
@@ -247,9 +247,9 @@ $(document).ready(function () {
 <span class="st">  </span><span class="kw">filter</span>(dest ==<span class="st"> &quot;RDU&quot;</span>)
 
 <span class="kw">qplot</span>(<span class="dt">data =</span> rdu_flights, <span class="dt">x =</span> dep_delay, <span class="dt">geom =</span> <span class="st">&quot;histogram&quot;</span>)</code></pre></div>
-<p>Let’s decipher these three lines of code:</p>
+<p>Let’s decipher these two lines of code:</p>
 <ul>
-<li>Line 1: Take the <code>nycflights</code> data frame, <code>filter</code> for flights headed to RDU, and save the result as a new data frame called <code>rdu_flights</code>.
+<li>Lines 1/2: Take the <code>nycflights</code> data frame, <code>filter</code> for flights headed to RDU, and save the result as a new data frame called <code>rdu_flights</code>.
 <ul>
 <li><code>==</code> means “if it’s equal to”.</li>
 <li><code>RDU</code> is in quotation marks since it is a character string.</li>
@@ -300,7 +300,7 @@ $(document).ready(function () {
             <span class="dt">n =</span> <span class="kw">n</span>())</code></pre></div>
 <p>Here, we first grouped the data by <code>origin</code>, and then calculated the summary statistics.</p>
 <ol style="list-style-type: decimal">
-<li>Calculate the median and interquartile range for <code>arr_delay</code>s of flights in in the <code>sfo_feb_flights</code> data frame, grouped by carrier. Which carrier is the has the most variable arrival delays?</li>
+<li>Calculate the median and interquartile range for <code>arr_delay</code>s of flights in in the <code>sfo_feb_flights</code> data frame, grouped by carrier. Which carrier has the most variable arrival delays?</li>
 </ol>
 </div>
 <div id="departure-delays-over-months" class="section level3">
@@ -328,7 +328,7 @@ $(document).ready(function () {
 </div>
 <div id="on-time-departure-rate-for-nyc-airports" class="section level3">
 <h3>On time departure rate for NYC airports</h3>
-<p>Suppose you will be flying out of NYC and want to know which of the three major NYC airports has the best on time departure rate of departing flights. Suppose also that for you a flight that is delayed for less than 5 minutes is basically “on time”. You consider any flight delayed for 5 minutes of more to be “delayed”.</p>
+<p>Suppose you will be flying out of NYC and want to know which of the three major NYC airports has the best on time departure rate of departing flights. Suppose also that for you a flight that is delayed for less than 5 minutes is basically “on time”. You consider any flight delayed for 5 minutes or more to be “delayed”.</p>
 <p>In order to determine which airport has the best on time departure rate, we need to</p>
 <ul>
 <li>first classify each flight as “on time” or “delayed”,</li>
@@ -347,9 +347,9 @@ $(document).ready(function () {
 <span class="st">  </span><span class="kw">summarise</span>(<span class="dt">ot_dep_rate =</span> <span class="kw">sum</span>(dep_type ==<span class="st"> &quot;on time&quot;</span>) /<span class="st"> </span><span class="kw">n</span>()) %&gt;%
 <span class="st">  </span><span class="kw">arrange</span>(<span class="kw">desc</span>(ot_dep_rate))</code></pre></div>
 <ol style="list-style-type: decimal">
-<li>If you were selecting an airport simply based on on time departure percentage, which NYC airport would you choose to fly out of?</li>
+<li>If you were selecting an airport simply based on time departure percentage, which NYC airport would you choose to fly out of?</li>
 </ol>
-<p>We can also visualize the distribution of on on time departure rate across the three airports using a segmented bar plot.</p>
+<p>We can also visualize the distribution of on time departure rate across the three airports using a segmented bar plot.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qplot</span>(<span class="dt">x =</span> origin, <span class="dt">fill =</span> dep_type, <span class="dt">data =</span> nycflights, <span class="dt">geom =</span> <span class="st">&quot;bar&quot;</span>)</code></pre></div>
 <hr />
 </div>
