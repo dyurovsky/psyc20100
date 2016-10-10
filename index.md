@@ -48,6 +48,7 @@ title: Schedule
 ##### In class / lab
 
 | Oct 10, Mon  |  **Quiz 2** in class |
+|              | [Lesson 2.1: Randomization and Sampling](post/slides/random.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/randomH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/gender.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/gender.pdf)|
 |              | Lesson 2.1: Randomization and Sampling |
 | Oct 12, Wed  | Lesson 2.2: Hypothesis Testing 1 |
 | Oct 14, Fri  | Lab 3: Testing Hypotheses |
