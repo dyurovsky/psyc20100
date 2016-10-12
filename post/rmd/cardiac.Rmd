@@ -1,0 +1,137 @@
+
+---
+title: "Cardiac arrest demo"
+output:
+  pdf_document: default
+  html_document:
+    fig_height: 4
+    fig_width: 6
+    highlight: tango
+    theme: cosmo
+---
+
+Load libraries
+```{r load_libraries, message = FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+Let's take a quick look at the empirical data
+```{r empirical}
+meeting_admitted <- 388
+meeting_died <- 66
+meeting_mortality <- meeting_died/meeting_admitted
+
+
+nonmeeting_admitted <- 2154
+nonmeeting_died <- 535
+nonmeeting_mortality <- nonmeeting_died/nonmeeting_admitted
+
+
+mortality_diff <- meeting_mortality - nonmeeting_mortality
+
+
+# Make a dataframe to show the results
+data.frame(type = c("Nonmeeting", "Meeting", "Difference"), 
+           mortality = c(nonmeeting_mortality, meeting_mortality, mortality_diff))
+```
+
+Let's simulate it
+
+```{r sample_func}
+day_diff <- function() {
+  
+  # Make an array with the right number of patients
+  patients <- c(rep("Meeting", meeting_admitted), 
+                rep("NonMeeting", nonmeeting_admitted))
+  
+  # randomly select the total who died from the array
+  died <- sample(patients, meeting_died + nonmeeting_died) 
+  
+  # Compute the difference in mortality between Meeting and NonMeeting Days
+  died_meeting <- sum(died == "Meeting")/meeting_admitted
+  died_nonmeeting <- sum(died == "NonMeeting")/nonmeeting_admitted
+  
+  return(died_meeting - died_nonmeeting)
+}
+
+day_diff()
+```
+
+Now lets draw samples and pot
+```{r thousand_samples, fig.height=4, fig.width = 6}
+thousand_diffs <- replicate(10000, day_diff())
+
+qplot(thousand_diffs, bins = 500) + 
+  theme_bw()
+```
+
+Sample and plot along with our original result
+```{r empirical_data, fig.height=4, fig.width = 6}
+thousand_diffs <- replicate(10000, day_diff())
+
+percentile <- .025
+
+# Find top and bottom 2.5% percents
+lower_percentile <- sort(thousand_diffs)[percentile * length(thousand_diffs)]
+upper_percentile <- sort(thousand_diffs)[length(thousand_diffs) - 
+                                           (percentile * length(thousand_diffs))]
+
+
+
+#add a vertical line to the random samples to show the empirical data
+qplot(thousand_diffs, bins = 100) + 
+  theme_bw() +
+  geom_vline(xintercept = mortality_diff, color = "darkred", size = 2) +
+  geom_vline(xintercept = lower_percentile, color = "blue", size = 2) + 
+  geom_vline(xintercept = upper_percentile, color = "blue", size = 2)
+```
+
+Where does our difference lie?
+```{r}
+# Compute the proportion of samples that the actual difference was greater than
+sum(mortality_diff >= thousand_diffs) / 10000
+```
+
+What about nonteaching hospitals?
+
+```{r non_teaching_empirical}
+meeting_admitted <- 3709
+meeting_died <- 901
+meeting_mortality <- meeting_died/meeting_admitted
+
+
+nonmeeting_admitted <- 22054
+nonmeeting_died <- 5432
+nonmeeting_mortality <- nonmeeting_died/nonmeeting_admitted
+
+
+mortality_diff <- meeting_mortality - nonmeeting_mortality
+
+
+# Make a dataframe to show the results
+data.frame(type = c("Nonmeeting", "Meeting", "Difference"), 
+           mortality = c(nonmeeting_mortality, meeting_mortality, mortality_diff))
+```
+
+Sample and plot along with our original result
+```{r nonteaching_empirical_data}
+thousand_diffs <- replicate(10000, day_diff())
+
+percentile <- .025
+
+# Find top and bottom 2.5% percents
+lower_percentile <- sort(thousand_diffs)[percentile * length(thousand_diffs)]
+upper_percentile <- sort(thousand_diffs)[length(thousand_diffs) - 
+                                           (percentile * length(thousand_diffs))]
+
+
+
+#add a vertical line to the random samples to show the empirical data
+qplot(thousand_diffs, bins = 100) + 
+  theme_bw() +
+  geom_vline(xintercept = mortality_diff, color = "darkred", size = 2) +
+  geom_vline(xintercept = lower_percentile, color = "blue", size = 2) + 
+  geom_vline(xintercept = upper_percentile, color = "blue", size = 2)
+```
+```

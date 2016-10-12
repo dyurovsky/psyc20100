@@ -49,7 +49,7 @@ title: Schedule
 
 | Oct 10, Mon  |  **Quiz 2** in class |
 |              | [Lesson 2.1: Randomization and Sampling](post/slides/random.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/randomH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/gender.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/gender.pdf)|
-| Oct 12, Wed  | Lesson 2.2: Hypothesis Testing 1 |
+| Oct 12, Wed  | [Lesson 2.2: Hypothesis Testing](post/slides/ht.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/htH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/cardiac.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/cardiac.pdf)|
 | Oct 14, Fri  | Lab 3: Testing Hypotheses |
 | Oct 17, Mon  | **Quiz 3** in class |
 |              | Lesson 2.3: Hypothesis Testing 2|
