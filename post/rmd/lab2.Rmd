@@ -5,9 +5,6 @@ author: "Your name"
 date: "Date of lab session"
 output:
   word_document: default
-    fig_height: 4
-    highlight: tango
-    theme: spacelab
 ---
 
 ```{r setup, include=FALSE}
