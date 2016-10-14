@@ -5,9 +5,6 @@ author: "Your name"
 date: "Date of lab session"
 output:
   word_document: default
-    fig_height: 4
-    highlight: tango
-    theme: spacelab
 ---
 
 ```{r setup, include=FALSE}
@@ -55,8 +52,8 @@ simulate_null <- function() {
     group_by(lag_shot) %>%
     summarise(shooting_prob = mean(SHOT_MADE_FLAG))
 
-  return(random_data[random_data$lag_shot == 1, "shooting_prob"] - 
-           random_data[random_data$lag_shot == 0, "shooting_prob"])
+  return(as.numeric(random_data[random_data$lag_shot == 1, "shooting_prob"] - 
+           random_data[random_data$lag_shot == 0, "shooting_prob"]))
 }
 ```
 
@@ -71,6 +68,9 @@ Your code for comparing the empirical distribution to the null here
 
 #### 1: 
 
+```{r oyo1}
+
+```
 
 #### 2: 
 
