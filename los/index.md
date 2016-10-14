@@ -63,8 +63,15 @@ Suggested reading: Section 1.7 of OpenIntro Statistics with Randomization and Si
 
 * **LO 14**. Use side-by-side box plots for assessing the relationship between a numerical and a categorical variable. 
 
-This page will be updated as the class progresses with common questions I receive from students. I recommend that you check this page when you have a question to see if it has already been answered. If not, send me an email, and if the answer to your question might benefit the whole class I'll post it here as well. 
+### <a name="unit1"></a>Unit 2:
 
+Suggested reading: OpenIntro Statistics with Randomization and Simulation, Chapter 2  
+
+Suggested exercises: (End of chapter exercises from OpenIntro Statistics with Randomization) 
+
+* Part 1 – Randomization and Hypothesis Testing: 2.1, 2.3, 2.5, 2.9, 
+* Part 2 – The Normal Distribution: 2.11, 3.13, 2.15, 2.17, 2.19, 2.23, 2.29, 2.31
+* Part 3 - Applying the Normal model 2.35, 2.37
 
 
 
