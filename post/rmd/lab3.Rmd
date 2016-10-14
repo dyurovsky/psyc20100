@@ -3,10 +3,10 @@
 title: "Lab 3 - Hypothesis testing"
 author: "Your name"
 date: "Date of lab session"
-output: 
-  html_document: 
+output:
+  word_document: default
     fig_height: 4
-    highlight: pygments
+    highlight: tango
     theme: spacelab
 ---
 
@@ -61,7 +61,7 @@ simulate_null <- function() {
 ```
 
 Your code for comparing the empirical distribution to the null here
-```{r ex4}
+```{r ex5}
 
 ```
 
