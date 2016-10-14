@@ -1,0 +1,88 @@
+
+---
+title: "Lab 3 - Hypothesis testing"
+author: "Your name"
+date: "Date of lab session"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+library(knitr)
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+* * *
+
+## Lab report
+
+#### Load data:
+```{r load_data}
+curry_data <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab3/curry_data.csv")
+```
+
+## Exercises:
+
+#### Exercise 1: 
+
+
+
+#### Exercise 2: 
+
+
+#### Exercise 3: 
+
+
+#### Exercise 4: 
+
+
+#### Exercise 5:
+
+The null distribution sampling function
+```{r null_function}
+simulate_null <- function() {
+  random_data <- curry_data %>%
+    group_by(GAME_ID) %>%
+    sample_frac(1) %>%
+    mutate(lag_shot = lag(SHOT_MADE_FLAG)) %>%
+    filter(!is.na(lag_shot)) %>% #throw out the first shot of each game
+    group_by(lag_shot) %>%
+    summarise(shooting_prob = mean(SHOT_MADE_FLAG))
+
+  return(random_data[random_data$lag_shot == 1, "shooting_prob"] - 
+           random_data[random_data$lag_shot == 0, "shooting_prob"])
+}
+```
+
+Your code for comparing the empirical distribution to the null here
+```{r ex4}
+
+```
+
+* * *
+
+## On your own:
+
+#### 1: 
+
+
+#### 2: 
+
+
+#### 3: 
+
+```{r oyo3}
+
+```
+
+
+#### 4: 
+
+
+***
