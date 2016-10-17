@@ -52,7 +52,7 @@ title: Schedule
 | Oct 12, Wed  | [Lesson 2.2: Hypothesis Testing](post/slides/ht.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/htH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/cardiac.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/cardiac.pdf)|
 | Oct 14, Fri  | [Lab 3: Testing the Hot Hands Hypothesis](post/labs/hypothesis_testing.html) |
 | Oct 17, Mon  | **Quiz 3** in class |
-|              | Lesson 2.3: Hypothesis Testing 2|
+|              |  [Lesson 2.3: The Central Limit Theorem](post/slides/clt.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/cltH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/sample_size.R) &nbsp;&nbsp;&nbsp;[<i class="fa fa-cog"></i>](post/rmd/app.R)|
 | Oct 19, Wed  | Lesson 2.4: The Normal Distribution |
 | Oct 21, Fri  | Lab 4: Understanding the Normal Distribution |
 | Oct 24, Mon  | **Quiz 4** in class |
