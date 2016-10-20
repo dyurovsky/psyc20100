@@ -1,0 +1,137 @@
+
+---
+title: "Normal Distributions"
+output:
+  pdf_document: 
+    fig_width: 4
+    fig_height: 2.5
+  html_document: default
+---
+
+
+Load libraries
+```{r load_libraries, message = FALSE}
+library(ggplot2)
+library(dplyr)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+Let's take a quick look at the empirical data
+
+```{r samples}
+#Generate 10000 samples from the appropriate normal distribution 
+ketchup_samples <- rnorm(10000, mean = 36, sd = .11)
+
+# Where is 35.8oz on this plot?
+qplot(ketchup_samples) + 
+  theme_bw() +
+  geom_vline(xintercept = 35.8, color = "red")
+```
+
+
+Now let's check the percentile of 35.8. 
+
+First, let's use sampling:
+```{r by_sampling}
+#Generate 10000 samples from the appropriate normal distribution 
+ketchup_samples <- rnorm(10000, mean = 36, sd = .11)
+
+# What percent are below 35.8oz?
+sum(ketchup_samples < 35.8)/length(ketchup_samples)
+```
+
+Now, let's use the normal distribution directly
+```{r by_distribution}
+#Let's check this directly:
+pnorm(35.8, mean = 36, sd = .11)
+```
+
+Now let's convert 35.8 to it's Z-score and check against the standard normal distribution
+```{r z_Scores}
+#Now in z-scores!
+z_score <- (35.8 - 36)/.11
+z_score
+
+pnorm(z_score, mean = 0, sd = 1)
+```
+
+QQPlots
+
+```{r qqplot}
+ketchup_df <- data.frame(y = ketchup_samples)
+
+ggplot(ketchup_df, aes(sample = y)) +
+  geom_qq() +
+  theme_bw()
+```
+
+
+```{r right_skewed_beta}
+beta_samples <- data.frame(sample = rbeta(10000, 2, 5))
+
+qplot(beta_samples) +
+  theme_bw()
+
+ggplot(beta_samples, aes(sample = sample)) +
+  geom_qq() +
+  theme_bw()
+```
+
+```{r left_skewed_beta}
+beta_samples <- data.frame(sample = rbeta(10000, 5, 1))
+
+qplot(beta_samples) +
+  theme_bw()
+
+ggplot(beta_samples, aes(sample = sample)) +
+  geom_qq() +
+  theme_bw()
+```
+
+Let's use QQ Plots to check the central limit theorem
+
+```{r clt}
+num_per_sample <- 1000
+num_samples <- 10000
+
+beta_means <- data.frame(mean = replicate(num_samples, 
+                                          mean( rbeta(num_per_sample, 2, 5))))
+
+
+qplot(beta_means) +
+  theme_bw()
+
+ggplot(beta_means, aes(sample = mean)) +
+  geom_qq() +
+  theme_bw()
+```
+
+Three Different distributions
+
+```{r }
+num_per_sample <- c(10, 30, 100, 1000, 1000)
+
+get_sample_stats <- function(num_per_sample) {
+  samples <- rbeta(num_per_sample, 2, 5)
+  data.frame(num_per_sample = num_per_sample,
+             mean = mean(samples), sd = sd(samples),
+             median = median(samples))
+}
+
+lapply(num_per_sample, get_sample_stats) %>%
+  bind_rows()
+
+
+get_stats_of_sample_stats <- function(num_per_sample) {
+
+  samples <- replicate(1000, mean(rbeta(num_per_sample, 2, 5)))
+  
+ data.frame(num_per_sample = num_per_sample,
+             mean = mean(samples), sd = sd(samples),
+            median = median(samples))
+}
+
+
+lapply(num_per_sample, get_stats_of_sample_stats) %>%
+  bind_rows()
+```
