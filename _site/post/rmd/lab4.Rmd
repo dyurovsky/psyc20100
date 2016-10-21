@@ -90,6 +90,9 @@ ames <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab4/ames.csv")
 
 #### 4: 
 
+```{r oyo4}
+
+```
 
 
 
