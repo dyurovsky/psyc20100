@@ -45,20 +45,20 @@ ames <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab4/ames.csv")
 #### Exercise 3: 
 
 
-```{r ex4}
+```{r ex3}
 
 ```
 
 
 #### Exercise 4: 
 
-```{r ex5}
+```{r ex4}
 
 ```
 
 #### Exercise 5:
 
-```{r ex6}
+```{r ex5}
 
 ```
 
@@ -84,7 +84,7 @@ ames <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab4/ames.csv")
 
 #### 3: 
 
-```{r oyo23}
+```{r oyo3}
 
 ```
 
