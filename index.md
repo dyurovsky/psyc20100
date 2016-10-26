@@ -82,7 +82,7 @@ title: Schedule
 
 ##### In class / lab
 
-| Oct 26, Wed | Lesson 3.1: Inference for a Single Proportion |
+| Oct 26, Wed | [Lesson 3.1: Inference for a Single Proportion](post/slides/one_prop.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/one_propH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/one_prop_clt.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/one_prop_clt.pdf) |
 | Oct 28, Fri | Lab 5: Public policy surveys |
 | Oct 31, Mon | **Quiz 5** in class |
 |             | Lesson 3.2: Difference of Two Proportions |

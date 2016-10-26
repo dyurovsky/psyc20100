@@ -1,0 +1,157 @@
+---
+title: "Inference for a single proportion"
+output:
+  pdf_document: 
+    fig_width: 4
+    fig_height: 2.5
+  html_document: default
+---
+
+
+```{r load_libraries}
+library(ggplot2)
+library(dplyr)
+
+theme_set(theme_bw())
+```
+
+Set up data, make sure everything checks out
+```{r data}
+correct <- 571
+incorrect <- 99
+N <- correct + incorrect
+
+
+p <- correct/N
+p
+```
+
+
+Let's build our estimate of what the sampling distribution would be like
+```{r sampling}
+empirical_sample <- c(rep("Correct", correct), rep("Incorrect", incorrect))
+
+head(empirical_sample)
+
+sample_func <- function(){
+  hypothetical_sample <- sample(empirical_sample, N, replace = TRUE)
+  mean(hypothetical_sample == "Correct")
+}
+
+sample_func()
+```
+
+
+We expect from CLT that p_hat ~ Normal(p, sqrt((p*1-p)/n))
+
+What does it's shape look like?
+```{r sample_plots}
+sample_means <- replicate(10000,sample_func())
+
+qplot(sample_means, binwidth = .0075)
+
+ggplot(data.frame(x = sample_means), aes(samples = x)) +
+  stat_qq()
+```
+
+What do it's parameters look like?
+```{r estimate_params}
+sample_means <- replicate(10000,sample_func())
+
+pop_mean_estimate <- mean(sample_means)
+pop_mean_estimate
+
+sample_mean_sd <- sd(sample_means)
+sample_mean_sd
+
+predicted_mean_sd <- sqrt((correct/N)*(incorrect/N)/N)
+predicted_mean_sd
+```
+
+Let's look at confidence intervals
+```{r ci_plot}
+sample_means <- replicate(10000,sample_func())
+
+qplot(sample_means, binwidth = .0075) + 
+  geom_vline(aes(xintercept = quantile(sample_means,.025)), color = "darkred") +
+  geom_vline(aes(xintercept = quantile(sample_means,.975)), color = "darkred")
+
+```
+
+
+Let's get confidence intervals 
+```{r estimate_cis}
+sample_means <- replicate(10000,sample_func())
+
+sample_mean_quantiles <- quantile(sample_means, probs = c(.025, .975))
+sample_mean_quantiles
+
+
+predicted_mean_quantiles <- c((correct/N) - 1.96 * sqrt((correct/N) *(incorrect/N)/N),
+                              (correct/N) + 1.96 * sqrt((correct/N) *(incorrect/N)/N))
+
+predicted_mean_quantiles
+```
+
+
+Why p_hat = .5 is conservative
+```{r p_hat_check}
+
+p_check <- data.frame(p = seq(0, 1, .01)) %>%
+  mutate(estimate = p * (1-p))
+
+head(p_check)
+
+qplot(data = p_check, x = p, y = estimate)
+```
+
+Hypothesis testing with CIs. First use Sampling.
+```{r estimate_null_cis}
+chance_p <- .5
+
+null_correct <- chance_p * N
+null_incorrect <- (1-chance_p) * N
+
+null_sample <- c(rep("Correct", null_correct), rep("Incorrect", null_incorrect))
+
+head(null_sample)
+
+null_func <- function(){
+  hypothetical_sample <- sample(null_sample, N, replace = TRUE)
+  mean(hypothetical_sample == "Correct")
+}
+
+null_func()
+
+null_means <- replicate(10000,null_func())
+
+
+qplot(null_means, binwidth = .0075)
+
+
+null_quantiles <- quantile(null_means, probs = c(.025, .975))
+null_quantiles
+```
+
+Now use CLT
+```{r clt_null_cis}
+chance_p <- .8
+
+null_correct <- chance_p * N
+null_incorrect <- (1-chance_p) * N
+
+
+predicted_null_quantiles <- c((null_correct/N) - 1.96 * 
+                                sqrt((null_correct/N) *(null_incorrect/N)/N),
+                              (null_correct/N) + 1.96 * 
+                                sqrt((null_correct/N) *(null_incorrect/N)/N))
+
+predicted_null_quantiles
+
+```
+
+
+
+
+
+
