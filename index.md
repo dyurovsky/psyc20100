@@ -83,11 +83,11 @@ title: Schedule
 ##### In class / lab
 
 | Oct 26, Wed | [Lesson 3.1: Inference for a Single Proportion](post/slides/one_prop.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/one_propH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/one_prop_clt.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/one_prop_clt.pdf) |
-| Oct 28, Fri | Lab 5: Public policy surveys |
+| Oct 28, Fri | [Lab 5: Confidence Intervals](post/labs/confidence_intervals.html) |
 | Oct 31, Mon | **Quiz 5** in class |
 |             | Lesson 3.2: Difference of Two Proportions |
 | Nov 2, Wed  | Lesson 3.3: The t-distribution |
-| Nov 4, Fri  | Lab 6: When to use which distribution |
+| Nov 4, Fri  | Lab 6: Inference for Proportions |
 | Nov 7, Mon  | **Quiz 6** in class |
 |             | Lesson 3.4: Paired data and the t-tests |
 | Nov 9, Wed  | Lesson 3.5: Difference of two means |

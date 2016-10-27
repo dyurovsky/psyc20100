@@ -1,0 +1,88 @@
+
+---
+title: "Lab 5 - Confidence intervals"
+author: "Your name"
+date: "Date of lab session"
+output:
+  word_document:
+    fig_height: 4
+    fig_width: 6
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(cache = TRUE)
+library(dplyr)
+library(ggplot2)
+```
+
+* * *
+
+## Lab report
+
+#### Load data:
+```{r load-data}
+ames <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab5/ames.csv")
+```
+
+
+## Exercises:
+
+#### Exercise 1: 
+
+```{r ex1}
+
+```
+
+#### Exercise 2: 
+
+
+
+#### Exercise 3: 
+
+
+
+#### Exercise 4: 
+
+
+```{r ex4}
+
+```
+
+
+#### Exercise 5: 
+
+```{r ex5}
+
+```
+
+* * *
+
+## On your own:
+
+#### 1: 
+
+
+```{r oyo1}
+
+```
+
+
+#### 2: 
+
+```{r oyo2}
+
+```
+
+#### 3: 
+
+```{r oyo2}
+
+```
+
+#### 4: 
+
+```{r oyo2}
+
+```
