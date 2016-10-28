@@ -77,12 +77,12 @@ ames <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab5/ames.csv")
 
 #### 3: 
 
-```{r oyo2}
+```{r oyo3}
 
 ```
 
 #### 4: 
 
-```{r oyo2}
+```{r oyo4}
 
 ```
