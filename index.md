@@ -62,7 +62,7 @@ title: Schedule
 
 * Lab 3: Oct 21, Start of Lab Section
 * Lab 4: Oct 28, Start of Lab Section
-* PS 2: Oct 26, 12:30 PM
+* PS 2: Oct 26, 1:30 PM
   * End of chapter exercises from **Chp 2**. Only turn in answers to graded questions,
   use the back of the book to check your work on the practice questions. Must show 
   **all** work to get credit. Submit homework through Google Classroom.
@@ -78,7 +78,7 @@ title: Schedule
 
 ##### Resources
 
-| Learning objectives: LO 3 | Textbook: [Chp 3 and Chp 4]({{ site.openintro}}) |
+| Learning objectives: [L0 3]({{site.baseurl}}/los/#unit3)| Textbook: [Chp 3 and Chp 4]({{ site.openintro}}) |
 
 ##### In class / lab
 
@@ -98,7 +98,15 @@ title: Schedule
 * Lab 5: Nov 4, Start of Lab Section
 * Lab 6: Nov 11, Start of Lab Section
 * Lab 8: Nov 18, Start of Lab Section
-* PS 3: Nov 14, 12:30 PM
+* PS 3: Nov 14, 1:30 PM
+  * End of chapter exercises from **Chp 3 and 4** of Intro to Stats with Randomization and Simulation. Only turn in answers to graded questions, use the back of the book to check your work on the practice questions. Must show **all** work to get credit. Submit homework through Google Classroom.
+  * **Graded questions:** 3.2, 3.6, 3.12, 3.18, 3.24, 3.26, 4.2, 4.6, 4.10, 4.14, 4.16, 4.18, 4.24
+  * Practice questions: 
+      + Part 1 – Inference for a single proportion: 3.1, 3.5, 3.11, 3.19 
+      + Part 2 – Difference of two proportions: 3.23, 3.25, 2.15, 2.17, 2.19, 2.23, 2.29, 2.31
+      + Part 3 - One-sample means with t-tests 4.3, 4.5
+      + Part 4 - Paired data: 4.9, 4.13
+      + Part 5 - Difference of two means: Difference of two means 
 
 
 * * *
@@ -125,7 +133,7 @@ title: Schedule
 
 ##### Due dates
 * Lab 9: Nov 25, Start of Lab Section
-* PS 4: Dec 5 Mon, 12:30 PM
+* PS 4: Dec 5 Mon, 1:30 PM
 * Final Project: Dec 8 11:55PM 
 * CAOS PostTest: Dec 8 11:55PM 
 
