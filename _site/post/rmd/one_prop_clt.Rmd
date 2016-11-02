@@ -1,3 +1,14 @@
+
+---
+title: "Inference for a single proportion"
+output:
+  pdf_document: 
+    fig_width: 4
+    fig_height: 2.5
+  html_document: default
+---
+
+
 ```{r load_libraries}
 library(ggplot2)
 library(dplyr)

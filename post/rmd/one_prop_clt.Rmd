@@ -1,3 +1,4 @@
+
 ---
 title: "Inference for a single proportion"
 output:
