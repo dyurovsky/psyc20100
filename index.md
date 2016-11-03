@@ -87,7 +87,7 @@ title: Schedule
 | Oct 31, Mon | **Quiz 5** in class |
 |             | [Lesson 3.2: Difference of Two Proportions](post/slides/diff_prop.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/diff_propH.pdf) |
 | Nov 2, Wed  | [Lesson 3.3: The t-distribution](post/slides/one_sample_t.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/one_sample_tH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/friday.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/friday.pdf) |
-| Nov 4, Fri  | Lab 6: Inference for Proportions |
+| Nov 4, Fri  | [Lab 6: Inference for Categorical Data](post/labs/inf_for_categorical_data.html) |
 | Nov 7, Mon  | **Quiz 6** in class |
 |             | Lesson 3.4: Paired data and the t-tests |
 | Nov 9, Wed  | Lesson 3.5: Difference of two means |
