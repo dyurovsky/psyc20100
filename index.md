@@ -89,7 +89,7 @@ title: Schedule
 | Nov 2, Wed  | [Lesson 3.3: The t-distribution](post/slides/one_sample_t.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/one_sample_tH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/friday.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/friday.pdf) |
 | Nov 4, Fri  | [Lab 6: Inference for Categorical Data](post/labs/inf_for_categorical_data.html) |
 | Nov 7, Mon  | **Quiz 6** in class |
-|             | Lesson 3.4: Paired data and the t-tests |
+|             | [Lesson 3.4: Paired data and the t-tests](post/slides/paired.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/pairedH.pdf)|
 | Nov 9, Wed  | Lesson 3.5: Difference of two means |
 | Nov 11, Fri | Lab 7: Paired Samples and Differences |
 
