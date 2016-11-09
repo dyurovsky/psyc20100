@@ -1,0 +1,57 @@
+
+---
+title: "T-tests, differences, and pooled variance"
+author: "Dan Yurovsky"
+date: "11/9/2016"
+output:
+  pdf_document: 
+    fig_width: 4
+    fig_height: 2.5
+---
+
+
+```{r load_libraries}
+library(dplyr)
+library(ggplot2)
+theme_set(theme_bw())
+```
+
+```{r load_data}
+hsb2 <- read.delim("hsb2.txt") %>%
+  mutate(diff = read - write)
+
+head(hsb2)
+```
+
+
+```{r show_data}
+qplot(hsb2$read, binwidth = 10)
+mean(hsb2$read)
+sd(hsb2$read)
+
+qplot(hsb2$write, binwidth = 10)
+mean(hsb2$write)
+sd(hsb2$write)
+
+
+qplot(hsb2$diff, binwidth = 10)
+mean(hsb2$diff)
+sd(hsb2$diff)
+```
+
+
+```{r comparing t_tests}
+
+# Test if the reading scores's mean is drawn from a population who's mean 
+# is the mean of the writing scores samples
+t.test(hsb2$read, mu = mean(hsb2$write))
+
+
+# Test if the difference between reading and writing scores is drawn from 
+# a population with a mean of 0
+t.test(hsb2$read - hsb2$write, mu = 0)
+
+# Test if the reading scores's mean is drawn from the 
+# same poupulation as the writing scores mean
+t.test(hsb2$read - sample(hsb2$write), mu = 0)
+```
