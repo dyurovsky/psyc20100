@@ -91,7 +91,7 @@ title: Schedule
 | Nov 7, Mon  | **Quiz 6** in class |
 |             | [Lesson 3.4: Paired data and the t-tests](post/slides/paired.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/pairedH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/hsb2.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/hsb2.pdf) |
 | Nov 9, Wed  | [Lesson 3.5: Difference of two means](post/slides/diff.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/diffH.pdf) |
-| Nov 11, Fri | Lab 7: Paired Samples and Differences |
+| Nov 11, Fri | [Lab 7: Inference for Numerical Data](post/labs/inf_for_numerical_data.html) |
 
 ##### Due dates
 
