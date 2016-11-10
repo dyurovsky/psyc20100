@@ -1,14 +1,3 @@
-
----
-title: "Lab 7 - More inference for numerical data"
-author: "Your name"
-date: "Date of lab session"
-output:
-  word_document:
-    fig_height: 4
-    fig_width: 6
----
-
 ```{r setup, include=FALSE}
 # DO NOT ALTER CODE IN THIS CHUNK
 library(dplyr)
@@ -21,8 +10,14 @@ library(ggplot2)
 
 #### Load data:
 ```{r load-data}
-acs <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab7/acs.csv")
+load(url("https://stat.duke.edu/~mc301/data/acs.RData"))
 ```
+
+#### Load data:
+```{r load-inference}
+load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
+```
+
 
 ## Exercises:
 
@@ -50,6 +45,9 @@ acs <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab7/acs.csv")
 #### Exercise 4: 
 
 
+```{r ex4}
+
+```
 
 
 #### Exercise 5: 
@@ -98,6 +96,9 @@ acs <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab7/acs.csv")
 
 #### 3:
 
+```{r oyo 3}
+
+```
 
 
 #### 4:
@@ -115,3 +116,34 @@ acs <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab7/acs.csv")
 
 
 ```
+
+#### 6:
+
+```{r oyo6}
+
+
+```
+
+
+#### 7:
+
+```{r oyo7}
+
+
+```
+
+## Teamwork report
+
+<!--
+For each team member, write their name, whether they attended the lab session, 
+whether they were the author for this week, and their contribution to the lab 
+report (as a percentage). The percentages should add up to 100.
+-->
+
+| Team member             | Attendance | Author   | Contribution % |
+|:------------------------|:----------:|:--------:|---------------:|
+| Name of member 1        | Yes / No   | Yes / No | 25%            |
+| Name of member 2        | Yes / No   | Yes / No | 25%            |
+| Name of member 3        | Yes / No   | Yes / No | 25%            |
+| Name of member 4        | Yes / No   | Yes / No | 25%            |
+| Total                   |            |          | 100%           |
