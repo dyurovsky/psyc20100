@@ -1,12 +1,12 @@
+
 ---
 title: "Lab 7 - More inference for numerical data"
-author: "Team name"
+author: "Your name"
 date: "Date of lab session"
-output: 
-  html_document: 
+output:
+  word_document:
     fig_height: 4
-    highlight: pygments
-    theme: spacelab
+    fig_width: 6
 ---
 
 ```{r setup, include=FALSE}
@@ -21,14 +21,8 @@ library(ggplot2)
 
 #### Load data:
 ```{r load-data}
-load(url("https://stat.duke.edu/~mc301/data/acs.RData"))
+acs <- read.csv("https://dyurovsky.github.io/psyc20100/data/lab7/acs.csv")
 ```
-
-#### Load data:
-```{r load-inference}
-load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
-```
-
 
 ## Exercises:
 
@@ -56,9 +50,6 @@ load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
 #### Exercise 4: 
 
 
-```{r ex4}
-
-```
 
 
 #### Exercise 5: 
@@ -107,18 +98,12 @@ load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
 
 #### 3:
 
-```{r oyo 3}
+```{r oyo3}
+
 
 ```
-
 
 #### 4:
-
-
-```{r oyo4}
-
-
-```
 
 
 #### 5:
@@ -127,34 +112,3 @@ load(url("https://stat.duke.edu/~mc301/R/fun/inference.RData"))
 
 
 ```
-
-#### 6:
-
-```{r oyo6}
-
-
-```
-
-
-#### 7:
-
-```{r oyo7}
-
-
-```
-
-## Teamwork report
-
-<!--
-For each team member, write their name, whether they attended the lab session, 
-whether they were the author for this week, and their contribution to the lab 
-report (as a percentage). The percentages should add up to 100.
--->
-
-| Team member             | Attendance | Author   | Contribution % |
-|:------------------------|:----------:|:--------:|---------------:|
-| Name of member 1        | Yes / No   | Yes / No | 25%            |
-| Name of member 2        | Yes / No   | Yes / No | 25%            |
-| Name of member 3        | Yes / No   | Yes / No | 25%            |
-| Name of member 4        | Yes / No   | Yes / No | 25%            |
-| Total                   |            |          | 100%           |

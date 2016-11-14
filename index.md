@@ -120,15 +120,16 @@ title: Schedule
 ##### In class / lab
 
 | Nov 14, Mon | **Quiz 7** in class | 
-|             | Lesson 4.1: Linear Regression |
-| Nov 16, Wed | Lesson 4.2: Correlation |
+|             | [Lesson 4.1: Linear Regression](post/slides/regression.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/regressionH.pdf) |
+| Nov 16, Wed | Lesson 4.2: Least Squares |
 | Nov 18, Fri | Lab 8: Understanding Regression |
-| Nov 21, Mon | **Quiz 7** in class | 
-|             | Lesson 4.3: Least-squares and residuals |
+| Nov 21, Mon | **Quiz 8** in class | 
+|             | Lesson 4.3: Correlation |
 | Nov 23, Wed | Lesson 4.4: Multiple regression |
-| Nov 25, Fri  | *Thankgsiving Break - no class*  |
-| Nov 28, Mon | Lesson 4.5: Logistic Regression |
-| Nov 30, Wed  | Wrap Up |
+| Nov 25, Fri | *Thankgsiving Break - no class*  |
+| Nov 28, Mon | **Quiz 9** in class | 
+|             | Lesson 4.5: Logistic Regression |
+| Nov 30, Wed | Wrap Up |
 | Dec 2, Fri  | Lab: Work on project |
 
 ##### Due dates
