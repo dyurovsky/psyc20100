@@ -86,7 +86,7 @@ spread: standard deviation (variability around the mean), range (max-min), inter
 * Part 2 – Difference of two proportions: 3.23, 3.25, 2.15, 2.17, 2.19, 2.23, 2.29, 2.31
 * Part 3 - One-sample means with t-tests 4.3, 4.5
 * Part 4 - Paired data: 4.9, 4.13
-* Part 5 - Difference of two means: Difference of two means 
+* Part 5 - Difference of two means: 4.15, 4.17, 4.23
 
 **Suggested reading:** Section 3.1 of OpenIntro Statistics with Randomization and Simulation
 
@@ -170,7 +170,7 @@ Test yourself:\\
 
 * **LO 23.** Calculate the standard error of the difference between means of two independent samples as $$SE=\sqrt{\frac{s^{2}_{1}}{n_{1}} + \frac{s^{2}_{2}}{n_{1}}}$$ and use this standard error in hypothesis testing and confidence intervals comparing means of independent groups. 
 
-* **LO 14.** Use a t-statistic, with degrees of freedom $$df=min(n_{1}−1,n_{2}−1)$$ for inference for the difference in two independent means:  
+* **LO 24.** Use a t-statistic, with degrees of freedom $$df=min(n_{1}−1,n_{2}−1)$$ for inference for the difference in two independent means:  
     +   CI: $$\left(\bar{x}_{1} - \bar{x}_{2}\right) \pm t^{\star}_{df}SE$$ and HT: $$T_{df} = \frac{\left(\bar{x}_{1} - \bar{x}_{2}\right) - \left(\mu_{1} - \mu_{2}\right)}{SE}$$ where $$SE = \sqrt{\frac{s^{2}_{1}}{n_1} + \frac{s^{2}_{2}}{n_2}}$$. \\
     Note that $$\mu_{1}-mu_{2}$$ is often 0, since often $$H_{0}: \mu_{1} - \mu_{2}= 0$$
     +   **Test yourself:**\\

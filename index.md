@@ -106,7 +106,7 @@ title: Schedule
       + Part 2 – Difference of two proportions: 3.23, 3.25, 2.15, 2.17, 2.19, 2.23, 2.29, 2.31
       + Part 3 - One-sample means with t-tests 4.3, 4.5
       + Part 4 - Paired data: 4.9, 4.13
-      + Part 5 - Difference of two means: Difference of two means 
+      + Part 5 - Difference of two means: 4.15, 4.17, 4.23
 
 
 * * *
@@ -134,7 +134,16 @@ title: Schedule
 
 ##### Due dates
 * Lab 9: Nov 25, Start of Lab Section
-* PS 4: Dec 5 Mon, 1:30 PM
+* PS 4: Dec 5 Mon, 12:30 PM
+   * End of chapter exercises from **Chp 5 and 6** of Intro to Stats with Randomization and Simulation. Only turn in answers to graded questions, use the back of the book to check your work on the practice questions. Must show **all** work to get credit. Submit homework through Google Classroom.
+  * **Graded questions:** 5.2, 5.4, 5.10, 5.18, 5.20, 5.26, 5.28, 6.2, 6.8, 6.10, 6.12. 6.14
+  * Practice questions: 
+      + Part 1 – Line fitting, residuals, and correlation: 5.1, 5.3, 5.9
+      + Part 2 – Fitting a line by least squares: 5.17, 5.19
+      + Part 3 - Inference for linear regression: 5.27, 5.29
+      + Part 4 - Introduction to multiple regression: 6.1, 6.3
+      + Part 5 - Model selection: 6.7, 6.9, 6.11
+      + Part 6 - Logistic Regression: 6.13
 * Final Project: Dec 8 11:55PM 
 * CAOS PostTest: Dec 8 11:55PM 
 
