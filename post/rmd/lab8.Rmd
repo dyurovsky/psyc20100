@@ -1,12 +1,12 @@
+
 ---
-title: "Lab 9 - Introduction to linear regression"
-author: "Team name"
+title: "Lab 8 - Introduction to Linear Regression"
+author: "Your name"
 date: "Date of lab session"
-output: 
-  html_document: 
+output:
+  word_document:
     fig_height: 4
-    highlight: pygments
-    theme: spacelab
+    fig_width: 6
 ---
 
 ```{r setup, include=FALSE}
