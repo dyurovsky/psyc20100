@@ -121,8 +121,8 @@ title: Schedule
 
 | Nov 14, Mon | **Quiz 7** in class | 
 |             | [Lesson 4.1: Linear Regression](post/slides/regression.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/regressionH.pdf) |
-| Nov 16, Wed | Lesson 4.2: Least Squares |
-| Nov 18, Fri | Lab 8: Understanding Regression |
+| Nov 16, Wed | [Lesson 4.2: Residuals and Least Squares](post/slides/least_squares.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/least_squaresH.pdf) |
+| Nov 18, Fri | [Lab 8: Simple Linear Regression](post/labs/simple_regression.html) |
 | Nov 21, Mon | **Quiz 8** in class | 
 |             | Lesson 4.3: Correlation |
 | Nov 23, Wed | Lesson 4.4: Multiple regression |

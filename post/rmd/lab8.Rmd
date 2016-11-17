@@ -1,0 +1,108 @@
+---
+title: "Lab 9 - Introduction to linear regression"
+author: "Team name"
+date: "Date of lab session"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+library(dplyr)
+library(ggplot2)
+```
+
+* * *
+
+## Lab report
+
+#### Load data:
+```{r load-data}
+load(url("https://dyurovsky.github.io/psyc20100/data/lab8/mlb11.Rdata"))
+```
+
+
+## Exercises:
+
+#### Exercise 1: 
+```{r ex1}
+
+```
+
+
+#### Exercise 2: 
+
+
+
+#### Exercise 3: 
+
+
+
+#### Exercise 4: 
+```{r ex4}
+
+```
+
+
+
+#### Exercise 5: 
+```{r ex5}
+
+```
+
+
+#### Exercise 6:
+```{r ex6}
+
+```
+
+
+#### Exercise 7:
+```{r ex7}
+
+```
+
+
+#### Exercise 8:
+```{r ex8}
+
+```
+
+
+
+* * *
+
+## On your own:
+
+#### 1: 
+```{r oyo1}
+
+```
+
+
+
+#### 2: 
+```{r oyo2}
+
+```
+
+
+#### 3:
+```{r oyo3}
+
+```
+
+
+#### 4:
+```{r oyo4}
+
+```
+
+
+#### 5:
+```{r oyo5}
+
+```
