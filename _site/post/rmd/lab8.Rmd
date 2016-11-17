@@ -10,7 +10,7 @@ library(ggplot2)
 
 #### Load data:
 ```{r load-data}
-load(url("https://dyurovsky.github.io/psyc20100/data/lab8/mlb11.Rdata"))
+load(url("https://dyurovsky.github.io/psyc20100/data/lab8/mlb11.RData"))
 ```
 
 
