@@ -97,7 +97,7 @@ title: Schedule
 
 * Lab 5: Nov 4, Start of Lab Section
 * Lab 6: Nov 11, Start of Lab Section
-* Lab 8: Nov 18, Start of Lab Section
+* Lab 7: Nov 18, Start of Lab Section
 * PS 3: Nov 14, 1:30 PM
   * End of chapter exercises from **Chp 3 and 4** of Intro to Stats with Randomization and Simulation. Only turn in answers to graded questions, use the back of the book to check your work on the practice questions. Must show **all** work to get credit. Submit homework through Google Classroom.
   * **Graded questions:** 3.2, 3.6, 3.12, 3.18, 3.24, 3.26, 4.2, 4.6, 4.10, 4.14, 4.16, 4.18, 4.24
@@ -130,10 +130,10 @@ title: Schedule
 | Nov 28, Mon | **Quiz 9** in class | 
 |             | Lesson 4.5: Logistic Regression |
 | Nov 30, Wed | Wrap Up |
-| Dec 2, Fri  | Lab: Work on project |
+| Dec 2, Fri  | Lab: Work on project (Optional)|
 
 ##### Due dates
-* Lab 9: Nov 25, Start of Lab Section
+* Lab 8: Nov 25, Start of Lab Section
 * PS 4: Dec 5 Mon, 12:30 PM
    * End of chapter exercises from **Chp 5 and 6** of Intro to Stats with Randomization and Simulation. Only turn in answers to graded questions, use the back of the book to check your work on the practice questions. Must show **all** work to get credit. Submit homework through Google Classroom.
   * **Graded questions:** 5.2, 5.4, 5.10, 5.18, 5.20, 5.26, 5.28, 6.2, 6.8, 6.10, 6.12. 6.14
