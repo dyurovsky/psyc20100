@@ -67,9 +67,6 @@ load(url("https://dyurovsky.github.io/psyc20100/data/lab8/mlb11.RData"))
 
 
 #### Exercise 8:
-```{r ex8}
-
-```
 
 
 
