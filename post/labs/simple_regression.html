@@ -237,8 +237,8 @@ $(document).ready(function () {
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qplot</span>(<span class="dt">x =</span> .resid, <span class="dt">data =</span> m1, <span class="dt">geom =</span> <span class="st">&quot;histogram&quot;</span>, <span class="dt">binwidth =</span> <span class="dv">25</span>) +
 <span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Residuals&quot;</span>)</code></pre></div>
 <p>or a normal probability plot of the residuals.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qplot</span>(<span class="dt">sample =</span> .resid, <span class="dt">data =</span> m1, <span class="dt">stat =</span> <span class="st">&quot;qq&quot;</span>)</code></pre></div>
-<p>Note that the syntax for making a normal probability plot is a bit different than what you’re used to seeing: we set <code>sample</code> equal to the residuals instead of <code>x</code>, and we set a statistical method <code>qq</code>, which stands for “quantile-quantile”, another name commonly used for normal probability plots.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qplot</span>(<span class="dt">sample =</span> .resid, <span class="dt">data =</span> m1, <span class="dt">geom =</span> <span class="st">&quot;qq&quot;</span>)</code></pre></div>
+<p>Note that the syntax for making a normal probability plot is a bit different than what you’re used to seeing: we set <code>sample</code> equal to the residuals instead of <code>x</code>, and we set the geom to <code>qq</code>, which stands for “quantile-quantile”, another name commonly used for normal probability plots.</p>
 <ol start="7" style="list-style-type: decimal">
 <li>Based on the histogram and the normal probability plot, does the nearly normal residuals condition appear to be met?</li>
 </ol>
