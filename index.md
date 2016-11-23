@@ -144,6 +144,6 @@ title: Schedule
       + Part 4 - Introduction to multiple regression: 6.1, 6.3
       + Part 5 - Model selection: 6.7, 6.9, 6.11
       + Part 6 - Logistic Regression: 6.13
-* Final Project: Dec 8 11:55PM 
+* [Final Project](post/labs/project.html): Dec 8 11:55PM 
 * CAOS PostTest: Dec 8 11:55PM 
 
