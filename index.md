@@ -124,8 +124,8 @@ title: Schedule
 | Nov 16, Wed | [Lesson 4.2: Residuals and Least Squares](post/slides/least_squares.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/least_squaresH.pdf) |
 | Nov 18, Fri | [Lab 8: Simple Linear Regression](post/labs/simple_regression.html) |
 | Nov 21, Mon | **Quiz 8** in class | 
-|             | Lesson 4.3: Correlation |
-| Nov 23, Wed | Lesson 4.4: Multiple regression |
+|             | [Lesson 4.3: Inference for linear regression](post/slides/inf_regression.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/inf_regressionH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/twins.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/twins.pdf) |
+| Nov 23, Wed | [Lesson 4.4: Multiple regression](post/slides/mlr.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/mlrH.pdf) |
 | Nov 25, Fri | *Thankgsiving Break - no class*  |
 | Nov 28, Mon | **Quiz 9** in class | 
 |             | Lesson 4.5: Logistic Regression |
