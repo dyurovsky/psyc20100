@@ -128,7 +128,7 @@ title: Schedule
 | Nov 23, Wed | [Lesson 4.4: Multiple regression](post/slides/mlr.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/mlrH.pdf) |
 | Nov 25, Fri | *Thankgsiving Break - no class*  |
 | Nov 28, Mon | **Quiz 9** in class | 
-|             | Lesson 4.5: Logistic Regression |
+|             | [Lesson 4.5: Model Selection](post/slides/model_selection.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/model_selectionH.pdf) |
 | Nov 30, Wed | Wrap Up |
 | Dec 2, Fri  | Lab: Work on project (Optional)|
 
