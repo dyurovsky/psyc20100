@@ -129,7 +129,7 @@ title: Schedule
 | Nov 25, Fri | *Thankgsiving Break - no class*  |
 | Nov 28, Mon | **Quiz 9** in class | 
 |             | [Lesson 4.5: Model Selection](post/slides/model_selection.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/model_selectionH.pdf) |
-| Nov 30, Wed | Wrap Up |
+| Nov 30, Wed | [Lesson 3.6 Multiple Regression and ANOVA](post/slides/model_selection.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-print"></i>](post/slides/model_selectionH.pdf) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-code-o"></i>](post/rmd/prof_analysis.Rmd) &nbsp;&nbsp;&nbsp;[<i class="fa fa-file-pdf-o"></i>](post/slides/prof_analysis.pdf) |
 | Dec 2, Fri  | Lab: Work on project (Optional)|
 
 ##### Due dates
